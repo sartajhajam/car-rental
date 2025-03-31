@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Rental Application for Tourists in Kashmir
 
-## Getting Started
+## Problem Statement
+Tourists visiting Kashmir often face difficulties in finding reliable and affordable transportation. The lack of a centralized platform to rent cars seamlessly leads to inconvenience, especially for those unfamiliar with the region. Existing solutions are either unstructured, expensive, or lack real-time availability updates. There is a need for a user-friendly, online car rental service catering specifically to tourists in Kashmir.
 
-First, run the development server:
+## Solution
+We propose a web and mobile-based Car Rental Application that allows tourists to:
+- Browse available cars from verified local vendors.
+- Book vehicles in advance or on the go.
+- Choose from different categories such as economy, luxury, and SUVs.
+- Get transparent pricing with no hidden charges.
+- View real-time availability of vehicles.
+- Make secure online payments.
+- Access customer support and local travel guidance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+### Frontend:
+- React.js (for web application)
+- React Native (for mobile application)
+- Tailwind CSS (for styling)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Backend:
+- Node.js with Express.js
+- MongoDB (database)
+- Firebase (for authentication and notifications)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Payment Integration:
+- Stripe or Razorpay
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Deployment:
+- Vercel (for frontend hosting)
+- AWS or DigitalOcean (for backend hosting)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Additional Features:
+- Google Maps API for location-based vehicle search
+- Admin panel for vendor management
+- Multi-language support for tourist convenience
