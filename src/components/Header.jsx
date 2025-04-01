@@ -36,8 +36,7 @@ const Header = () => {
               className={`${
                 pathname === link.link ? "text-blue-400" : "text-gray-600 hover:text-blue-400"
               } transition-colors duration-200`} 
-              href={link.link} 
-              exact={link.exact}
+              href={link.link}
               onClick={() => setIsMenuOpen(false)}
             >
               <span>{link.text}</span>
