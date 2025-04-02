@@ -11,7 +11,7 @@ const Header = () => {
     <div className="bg-white shadow-lg h-16 flex justify-between items-center md:px-[10%]">
       <Link
         href="/"
-        className="text-third-color font-bold text-2xl pl-5 md:pl-0"
+        className="text-cyan-400 font-bold text-2xl pl-5 md:pl-0"
       >
         Kashmir Cabs 
       </Link>
@@ -32,7 +32,7 @@ const Header = () => {
           <div key={link.link}>
             <Link
               className={`${
-                pathname === link.link ? "text-third-color" : "text-gray-400"
+                pathname === link.link ? "text-cyan-400" : "text-gray-400"
               }`}
               href={link.link}
               exact={link.exact}

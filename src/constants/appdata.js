@@ -39,13 +39,13 @@ export const profile = [
   },
   {
     title: "Quotes",
-    text: "Your definitive decision for lavish or high-limit transport, whenever, anyplace in Melbourne.",
+    text: "Your definitive decision for lavish or high-limit transport, whenever, anyplace in Kashmir.",
     icon: "quote-left",
     img: "/banner-2.jpg",
   },
   {
     title: "Inspiration",
-    text: "Find our spic and span Limolux vehicle administration, conveying unmatched class and accommodation.",
+    text: "Find our spic and Kashmir Cabs  vehicle administration, conveying unmatched class and accommodation.",
     img: "/banner-3.jpg",
     icon: "lightbulb",
   },
@@ -57,7 +57,7 @@ export const exploreWorlds = [
     imgUrl: "/planet-01.jpg",
     title: "Secure, Dependable, and Opulent",
     description:
-      "At Limolux, we understand your desires – a seasoned chauffeur behind the wheel, complemented by a flawlessly stylish ride.",
+      "At Kashmir Cabs , we understand your desires – a seasoned chauffeur behind the wheel, complemented by a flawlessly stylish ride.",
   },
   {
     id: "world-2",
@@ -71,7 +71,7 @@ export const exploreWorlds = [
     imgUrl: "/planet-03.jpg",
     title: "Need Wedding Transportation?",
     description:
-      "On your wedding day, Limolux delivers the ultimate luxury ride for an unforgettable journey.",
+      "On your wedding day, Kashmir Cabs  delivers the ultimate luxury ride for an unforgettable journey.",
   },
 ];
 
