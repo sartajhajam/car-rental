@@ -1,5 +1,7 @@
 
 import Carousels from "@/components/Carousel";
+import Explore from "@/components/Explore";
+import React from "react";
 
 import { Car } from "lucide-react";
 
