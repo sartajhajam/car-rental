@@ -7,9 +7,9 @@ const ExploreCard = ({world}) => {
       <div className='mx-auto w-32 h-32 relative -mt-[85px] border-4 border-white rounded-full overflow-hidden '>
         <img src={world.imgUrl} alt="" className='object-cover object-center h-32'/>
       </div>
-      <div>
+      <div className='mt-6'>
         <h2 className='text-xl font-bold text-cyan-400'>{world.title}</h2>
-        <p className='text-hray-500 mt-6'>{world.description}</p>
+        <p className='text-gray-500 mt-6'>{world.description}</p>
       </div>
     </div>
   );

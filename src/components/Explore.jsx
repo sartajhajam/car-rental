@@ -10,7 +10,7 @@ const Explore = () => {
     <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
       <TitleText 
       title={
-        <span className='text-gray-800 font-extrabold'>
+        <span className='text-gray-900 font-extrabold'>
           Why Ride With Us?
         </span>
       }
