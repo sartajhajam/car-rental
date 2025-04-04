@@ -1,18 +1,27 @@
-import Banners from "@/components/Banners"
-import React from 'react'
+import Banners from "@/components/Banners";
+import Service from "@/components/Service";
+import Subfooter from "@/components/Subfooter";
+import { serviceList } from "@/contants/appdata";
+import React from "react";
 
 const Services = () => {
   return (
     <div>
       <Banners
         img="/service-banner.jpg"
-        title="Services "
-        text="Experience the best of Kashmir with our exceptional car rental services. Whether you need a ride to the airport, a local transfer, or a full-day tour, we have you covered. Our fleet of well-maintained vehicles and professional drivers ensure a comfortable and reliable journey. Book your ride today and explore the beauty of Kashmir with ease."  
+        title="Services"
+        text="Experience elevated travel with Kashmir Cabs: Where style, comfort, and safety meet for every occasion. Travel in sophistication and peace of mind."
       />
-      
-      
+      <div className="mb-5">
+        {serviceList?.map((service, index) => (
+          <div key={index}>
+            <Service service={service} />
+          </div>
+        ))}
+      </div>
+      <Subfooter />
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
