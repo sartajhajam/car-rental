@@ -5,7 +5,7 @@ export const links = [
     exact: true,
   },
   {
-    link: "/booking?index=1",
+    link: "/local",
     text: "Transfers",
     exact: true,
   },
@@ -178,7 +178,7 @@ export const insights = [
     imgUrl: "/car-4.jpg",
     title: "Van",
     subtitle:
-      "Find the Mercedes-Benz V-Class, a top decision for obliging 5-6 travelers easily with more than adequate baggage space. This open extravagance individual’s mover flaunts enormous back seats and a liberal boot, guaranteeing a smooth and spacious excursion. Prestigious overall for its flexibility, the Mercedes V-Class sets the norm for moving travelers in style and refinement. Raise your gathering travel insight with this remarkable vehicle from Limolux.",
+      "Find the Mercedes-Benz V-Class, a top decision for obliging 5-6 travelers easily with more than adequate baggage space. This open extravagance individual's mover flaunts enormous back seats and a liberal boot, guaranteeing a smooth and spacious excursion. Prestigious overall for its flexibility, the Mercedes V-Class sets the norm for moving travelers in style and refinement. Raise your gathering travel insight with this remarkable vehicle from Limolux.",
   },
   {
     imgUrl: "/car-5.jpg",
