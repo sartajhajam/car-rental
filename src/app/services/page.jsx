@@ -5,9 +5,9 @@ const Services = () => {
   return (
     <div>
       <Banners
-        img="/local-banner.jpg"
-        title="Local Transfers"
-        text="Add to the memories on your big day with Kashmir Cabs"
+        img="/service-banner.jpg"
+        title="Services "
+        text="Experience the best of Kashmir with our exceptional car rental services. Whether you need a ride to the airport, a local transfer, or a full-day tour, we have you covered. Our fleet of well-maintained vehicles and professional drivers ensure a comfortable and reliable journey. Book your ride today and explore the beauty of Kashmir with ease."  
       />
       
       
