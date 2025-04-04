@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Banners = ({ img, title, text, backgroundColor = "#f5f5f5" }) => {
   return (
     <div className="">
